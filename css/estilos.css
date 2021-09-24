@@ -1,0 +1,200 @@
+/* PREGUNTAR SI ES NECESARIO QUE SEA RESPONSIVO */
+/* FUENTE */
+h1{
+color: #000000;
+}
+h2{
+color: #000000;
+margin: 0;
+}
+h3{
+    color: #000000;
+    margin: 0;
+}
+h4{
+    color: #000000;
+}
+h5{
+    color: #000000;
+    margin: 0;
+}
+h6{
+color: #292525;
+margin: 0;
+}
+/* MARGENES */
+.m0{
+margin: 0;
+}
+/* COLORES */
+.negro{
+    color: #000000;
+}
+
+.fondo{
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #a39f9f;
+}
+
+/* PRODUCTOS */
+
+.contenedor-productos{
+    display: flex;
+    width:75%;
+    float: left;
+}
+.productos{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    
+}
+.encabezados{
+    text-align: center !important;
+}
+
+.articulo-n{
+    margin: 0rem;
+}
+
+
+/* BOTONES */
+.botones{
+    margin-top: 1rem;
+    background: #333031;
+    /* border-radius: 1px !important; */
+    color: #fff;
+    font-size: 16px;
+    line-height: 65px;
+    height: 25px;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    font-weight: 200;
+    box-shadow: 0 10px 20px 0 rgba(243, 242, 242, 0.1);
+    transition: .4s all ease-in-out;
+}
+
+.botones:hover{
+    background: #0a6810;
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.3s;
+    transform: scale(1.025);
+}
+
+
+
+.botones:focus{
+    background: #271b92;
+    color: #fff;
+    /* box-shadow: 0 7px 15px rgba(145, 140, 140, 0.596); */
+    transition: all 0.3s;
+    transform: scale(1.5.1);
+}
+.botones:disabled{
+    background: #d41111;
+    color: #fff;
+    /* box-shadow: 0 7px 15px rgba(145, 140, 140, 0.596); */
+    transition: all 0.3s;
+    transform: scale(1.5.1);
+}
+
+
+/* INICIO DE SESIÓN */
+
+#sesion-iniciada{
+    display:none;
+    margin-top: 1rem;
+}
+.contenedor-inicio-sesion{
+    float: right;
+    width: 21%;
+    margin-top: 1.5rem;
+
+}
+.inicio-sesion{
+   margin: 0.5rem;
+   text-align: center;
+
+}
+
+#inicio-sesion{
+    margin: 0 !important;
+}
+.input-field {
+    width: 100%;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+}
+.carrito-compra{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+
+.item{
+    display: flex;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: left;
+}
+.detalles{
+    margin-top: .25rem;
+    padding-left: .5rem;
+}
+
+#total{
+    margin-top: 1rem;
+    text-align: right;
+}
+.datos-desarrollador{
+    text-align: left;
+    padding: 0.75rem;
+}
+.thumbnails{
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+/* VALIDAR FORMULARIOS */
+.error {
+    color: #e30707b0;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 1px;
+    font-weight: bold;
+    margin-top: .5rem;
+
+
+}
+
+.exito {
+    color: #1c6e08;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 1px;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.margin-green {
+    border-color: #1c6e08 !important;
+}
+
+.margin-red {
+    border-color: #fd0505b0 !important;
+}
+

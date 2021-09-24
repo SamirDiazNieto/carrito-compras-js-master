@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <title>E-Commerce</title>
+    
+</head>
+
+<body>
+    <!-- INICIO PRODUCTOS -->
+    <section id="productos" class="contenedor-productos">
+        <div class="productos">
+            <!-- INICIO ARTICULO 1-->
+            <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-1" src ="/img/xsr900.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-1">Yamaha XRE 9000</h2>
+                    <h3 id="precio-producto-1">$1000</h3>
+                    <h6 id="stock-1">5 unidades disponibles</h6>
+                </hgroup>
+                <button class="botones" type="button" id="comprar-1"  >Añadir a Compra</button>
+                <h6 class="encabezados" id="enCarrito-1"></h6>
+            </article>
+            <!-- FIN ARTICULO 1-->
+            <!-- INICIO ARTICULO 2-->
+            <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-2" src ="/img/mt07.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-2">Yamaha MT07</h2>
+                    <h3 id="precio-producto-2">$2000</h3>
+                    <h6 id="stock-2">5 unidades disponibles</h6>
+                </hgroup>
+                <button class="botones" type="button" id="comprar-2" >Añadir a Compra</button>
+                <h6 class="encabezados" id="enCarrito-2"></h6>
+            </article>
+            <!-- FIN ARTICULO 2 -->
+            <!-- INICIO ARTICULO 3-->
+            <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-3"  src ="/img/mt09.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-3">Yamaha MT09</h2>
+                    <h3 id="precio-producto-3">$3000</h3>
+                    <h6 id="stock-3">5 unidades disponibles</h6>
+                </hgroup>
+                <button class="botones" type="button" id="comprar-3"  >Añadir a Compra</button>
+                <h6 class="encabezados" id="enCarrito-3"></h6>
+            </article>
+            <!-- FIN ARTICULO 3 -->
+            <!-- INICIO ARTICULO 4 -->
+            <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-4" src ="/img/mt10.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-4">Yamaha MT10</h2>
+                    <h3 id="precio-producto-4">$4000</h3>
+                    <h6 id="stock-4">5 unidades disponibles</h6>
+                </hgroup>
+                <center>
+                    <button class="botones" type="button" id="comprar-4"  >Añadir a Compra</button>
+                    <h6 class="encabezados" id="enCarrito-4"></h6>
+                </center>
+
+            </article>
+            <!-- FIN ARTICULO 4 -->
+            <!-- INICIO ARTICULO 5 -->
+            <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-5"  src ="/img/r1.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-5">Yamaha R1M</h2>
+                    <h3 id="precio-producto-5">$5000</h3>
+                    <h6 id="stock-5">5 unidades disponibles</h6>
+                </hgroup>
+                <button class="botones" type="button" id="comprar-5"  >Añadir a Compra</button>
+                <h6 class="encabezados" id="enCarrito-5"></h6>
+            </article>
+            <!-- FIN ARTICULO  5 -->
+            <!-- INICIO ARTICULO 6 -->
+            <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-6" src ="/img/r6.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-6">Yamaha R6</h2>
+                    <h3 id="precio-producto-6">$6000</h3>
+                    <h6 id="stock-6">5 unidades disponibles</h6>
+                </hgroup>
+                <button class="botones" type="button" id="comprar-6" >Añadir a Compra</button>
+                <h6 class="encabezados" id="enCarrito-6"></h6>
+            </article>
+            <!-- FIN ARTICULO 6 -->
+            <!-- INICIO ARTICULO n -->
+            <!-- <article class="articulos fondo">
+                <figure class="articulo-n">
+                    <img id="img-6" src ="/img/mt03.png" alt="productos">
+                </figure>
+                <hgroup class="encabezados">
+                    <h2 id="nombre-producto-6">Nombre del Producto 0</h2>
+                    <h3 id="precio-producto-6">$0000</h3>
+                    <h6 id="stock-6">5 unidades disponibles</h6>
+                </hgroup>
+                <button class="botones" type="button" id="comprar-6" onclick="agregarItem(6)">Añadir a Compra</button>
+                <h6 class="encabezados" id="enCarrito-6"></h6>
+            </article> -->
+            <!-- FIN ARTICULO n -->
+
+        </div>
+    </section>
+    <!-- FIN PRODUCTOS -->
+    <!-- INICIO BARRA LATERAL -->
+    <aside class="contenedor-inicio-sesion">
+        <div class="inicio-sesion fondo">
+            <form id="fomulario-inicio-sesion" action="">
+                <h2>Iniciar Sesión</h2>
+                <!-- Nombre -->
+                <div class="input-field">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <h6 id="msjNombre">&nbsp;</h6>
+                </div>
+                <!-- Correo -->
+                <div class="input-field">
+                    <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+                    <h6 id="msjContrasena">&nbsp;</h6>
+                </div>
+                <button class="botones" type="button" id="inicio-sesions"  >Iniciar
+                    sessión</button>
+
+            </form>
+            <section id="sesion-iniciada">
+                <figure >
+                    <img src="/img/foto.png" alt="item">
+                </figure>
+                <hgroup >
+                    <h5 >Bienvenido!</h5>
+                    <h5 >Samir</h5>
+                </hgroup>
+            </section>
+            <div class="carrito-compra">
+                <hgroup>
+                    <h3>Carro de Compras</h3>
+                </hgroup>
+                <article id="itemComprado" >
+                </article>
+                <hgroup id="total">
+                    <h5 id="t-productos">Total Productos: $0.000</h5>
+                    <h5 id="t-envio">Envio: $0.000</h5>
+                    <h5 id="t-compras">Total a Comprar: $0.000</h5>
+                </hgroup>
+                <!-- PREGUNTAR COMO BLOQUEARLO APENAS CARGA LA PAGINA -->
+                <button class="botones" type="button" id="comprar"  disabled="">Realizar a Compra</button>
+            </div>
+        </div>
+        <section class="datos-desarrollador">
+            <hgroup>
+                <h5><b>DATOS PARA EL DESARROLLADOR</b></h5>
+                <h4><b>Usuario:</b> Samir</h4>
+                <h4><b>Contraseña:</b> Escalab123</h4>
+            </hgroup>
+            <button class="botones" type="button" id="restStock"  >RESTAURAR PRODUCTOS</button>
+           
+        </section>
+    </aside>
+    <!-- FIN BARRA LATERAL -->
+    <!-- INICIO FOOTER -->
+    <footer>
+
+    </footer>
+    <!-- INICIO FOOTER -->
+    <script src="/js/index.js"></script>
+</body>
+</html>

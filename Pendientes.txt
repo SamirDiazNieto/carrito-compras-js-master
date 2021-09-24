@@ -1,0 +1,2 @@
+el stock se restablece cuando referesco la pagina 
+los items se listan de forma diferente	a la agregada (id de html)
